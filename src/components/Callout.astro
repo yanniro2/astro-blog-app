@@ -1,0 +1,12 @@
+---
+type Props = {
+    link:string,
+    text:string,
+}
+
+const {link , text} = Astro.props;
+---
+
+<div class="bg-gray-200 flex justify-center py-20 rounded-xl w-full">
+    <a href={link}>{text}</a>
+</div>

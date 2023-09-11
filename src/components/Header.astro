@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+---
+
+
+<header class="w-[80%] flex justify-between items-center m-auto mt-[4rem]">
+
+    <div>
+        <a href="/">
+            <Image 
+            src="/heartbeat.png"
+            alt="rhythm nation logo"
+            width={64}
+            height={64}
+            format="webp"
+            class="w-16"
+                />
+            </a>
+    </div>
+
+    <div class="flex items-center gap-5">
+        <div>
+            <a href="/" class="font-medium text-green-800 capitalize cursor-pointer">
+                home
+            </a>
+        </div>
+        <div>
+            <a href="/about" class="font-medium text-green-800 capitalize cursor-pointer">
+                about
+            </a>
+        </div>
+        <div>
+            <a href="/blog" class="font-medium text-green-800 capitalize cursor-pointer">
+                blog
+            </a>
+        </div>
+        
+    </div>
+</header>

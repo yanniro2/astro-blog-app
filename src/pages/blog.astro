@@ -1,0 +1,20 @@
+---
+
+import Main from "../components/Main.astro";
+import H1 from "../components/H1.astro";
+import Layout from "../layouts/Layout.astro";
+import {getCollection} from "astro:content";
+import PostList from "../components/PostList.astro";
+const posts = await getCollection("posts");
+
+---
+
+<Layout title="blog page" >
+        <Main>
+             <H1 text={"About Rythm Naation blog"}/>
+             <p>This is all about this block is awsome</p>
+
+             <PostList posts={posts}/>
+
+        </Main>
+</Layout>
