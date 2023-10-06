@@ -27,7 +27,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/astro-blog-app.git](https://github.com/yanniro2/astro-blog-app.git
+   git clone https://github.com/yanniro2/astro-blog-app.git
 
 
 2. View Live:
